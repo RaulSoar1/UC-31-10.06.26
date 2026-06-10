@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Inicial</title>
+</head>
+<body class="{ tema }">
+    { if nome }
+        <h1>Olá, { nome }!</h1>
+        <p>Email: { email }</p>
+    { else }
+        <h1>Bem-vindo!</h1>
+    { endif }
+
+    <a href="/cadastro">Cadastrar</a>
+    <br><br>
+
+    <a href="/tema/claro">Tema Claro</a>
+    <a href="/tema/escuro">Tema Escuro</a>
+</body>
+</html>
